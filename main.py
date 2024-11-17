@@ -19,12 +19,8 @@ app = FastAPI(
     version="1.0.0",
     openapi_tags=[
         {
-            "name": "todos",
-            "description": "タスク管理に関する操作。",
-        },
-        {
-            "name": "users",
-            "description": "ユーザー管理に関する操作。",
+            "name": "hello",
+            "description": "APIのテスト",
         },
     ],
     dependencies=[Depends(verify_token)],
